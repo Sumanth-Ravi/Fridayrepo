@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: 10.71.1.201:8085/os-images/alpine:3.19
+          image: 10.151.6.69:8085/sumanth/harbor_img:b1-0c07952
           ports:
             - containerPort: 80
 ---
