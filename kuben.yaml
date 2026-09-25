@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: 10.151.6.85:8085/os-images/alpine:3.19
+          image: 10.71.1.201:8085/os-images/alpine:3.19
           ports:
             - containerPort: 80
 ---
